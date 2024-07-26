@@ -1,5 +1,16 @@
 # PRS-CS
 
+### Useful scripts to run PRS-CS (soon to be released)
+
+#### **01_gwascat_to_prscs.R**
+<i> Read in GWAS summary stats, set PRS-CS parameters and generate weights </i>
+#### **01_gwasvcf_to_prscs.R**
+<i> Read in GWAS summary stats from VCF format, set PRS-CS parameters and generate weights </i>
+#### **02_prscs_output_combine.R**
+<i> Combine per chromosome weights into one text file </i>
+
+## Developer Info
+
 **PRS-CS** is a Python based command line tool that infers posterior SNP effect sizes under continuous shrinkage (CS) priors
 using GWAS summary statistics and an external LD reference panel.
 
