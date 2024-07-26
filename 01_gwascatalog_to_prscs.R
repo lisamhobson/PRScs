@@ -42,7 +42,7 @@ if (!file.exists(p2_res_id)) {
 }
 
 # create output file per chromosome
-paste0(p2_res_id, "_pst_eff_a1_b0.5_phi1e-2_chr", chr, ".txt")
+paste0(p2_res_id, paste0(id, "_pst_eff_a1_phi_", phi, "_chr", chr, ".txt"))
 
 # read in gwas file 
 p2_file <- paste0(p2_gwas, id, ".tsv")

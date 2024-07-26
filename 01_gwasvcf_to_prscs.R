@@ -31,7 +31,7 @@ seed=1
 p2_res_id <- paste0(p2_res, id, "/")
 dir.create(p2_res_id, showWarnings = F)
 
-if (file.exists(paste0(p2_res_id, "_pst_eff_a1_b0.5_phi1e-02_chr", chr, ".txt"))) {
+if (file.exists(paste0(id, "_pst_eff_a1_phi_", phi, "_chr", chr, ".txt"))) {
   next  
 }
 
