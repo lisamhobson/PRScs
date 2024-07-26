@@ -18,4 +18,4 @@ for(i in 2:length(dat))
   dat_total <- rbind.data.frame(dat_total, dat[[i]])
 
 # write to file
-write.table(dat_total, file=paste0(p2_res, "/", id, "/", id, "_chr1-22.txt"), quote=F, row.names = F, col.names = F)
+write.table(dat_total, file=paste0(p2_res, id, "/", id, "_chr1-22.txt"), quote=F, row.names = F, col.names = F)
