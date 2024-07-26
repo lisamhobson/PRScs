@@ -31,7 +31,7 @@ chr <- as.numeric(Sys.getenv("SLURM_ARRAY_TASK_ID")) # chromosomes to run (run a
 p2_prscs <- paste0(data_path, "PRScs/PRScs.py") # PRScs package from github repo
 p2_gwas <- paste0(gwas_path)  # gwas path
 p2_ref <- paste0(data_path, "ldblk_ukbb_eur") # From the PRScs github repo - specific to ancestry
-p2_bim <- paste0(data_path, "UKBB_10K") # bim file 
+p2_bim <- paste0(data_path, "") # bim file 
 p2_res <- paste0(output_path) # weights output path
 
 # create directory for output
