@@ -1,6 +1,6 @@
 # PRS-CS
 
-### Useful scripts to run PRS-CS (soon to be released)
+### Useful scripts to run PRS-CS
 
 #### **01_gwascat_to_prscs.R**
 <i> Read in GWAS summary stats, set PRS-CS parameters and generate weights </i>
